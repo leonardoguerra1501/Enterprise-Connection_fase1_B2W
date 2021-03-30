@@ -67,6 +67,7 @@ main{
 
 .passeio h1 {
 
+    color: #535563;
     font-weight: 500;
     font-size: 36px;
     line-height: 42px;
@@ -75,7 +76,7 @@ main{
 
 }
 
-.passeio .item {
+.item {
 
     color: white;
     font-size: 36px;
@@ -84,7 +85,7 @@ main{
 
 }
 
-.passeio .item .item-conteudo {
+.item .item-conteudo {
 
     color: #535563;
     font-weight: bold;
@@ -124,6 +125,24 @@ main{
 
 }
 
+.info-dracula {
+
+    height: 175px;
+
+}
+
+.info-dracula h1 {
+
+    margin-bottom: 35px;
+
+}
+
+.info-dracula span {
+
+    margin-bottom: 15px;
+
+}
+
 .container-passagem {
 
     margin: 68px 0 59px;
@@ -140,6 +159,7 @@ main{
 .container-passagem .passagens {
 
     margin-top: 20px;
+    display: flex;
 
 }
 
@@ -153,6 +173,7 @@ main{
     justify-content: center;
     align-items: center;
     border-radius: 9px;
+    margin-right: 29px;
 
 }
 
