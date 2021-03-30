@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
-body{
+*{
     font-family: 'Roboto', sans-serif;
 }
 main{
@@ -41,3 +41,201 @@ main{
     display: inline-block;  
 }
 
+.container-passeio {
+
+    width: 100%;
+    display: flex;
+    margin-top: 78px;
+
+}
+
+.passeios {
+
+    width: 100%;
+    display: inline-block;
+
+}
+
+.passeios .passeio {
+
+    background-color: #0CD474;
+    padding: 20px 38px;
+    margin: 0 12px 32px;
+    border-radius: 9px;
+    
+}
+
+.passeio h1 {
+
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+    margin-bottom: 21px;
+    text-transform: uppercase;
+
+}
+
+.passeio .item {
+
+    color: white;
+    font-size: 36px;
+    display: block;
+    margin-bottom: 12px;
+
+}
+
+.passeio .item .item-conteudo {
+
+    color: #535563;
+    font-weight: bold;
+    margin-left: 6px;
+
+}
+
+.info {
+
+    background-color: #0CD474;
+    padding: 20px 38px;
+    margin: 0 12px 32px;
+    border-radius: 9px;
+    height: 207px;
+    width: 40%;
+    display: inline-block;
+
+}
+
+.info h1 {
+
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+    color: #535563;
+    text-align: center;
+
+}
+
+.info p {
+
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-top: 12px;
+
+}
+
+.container-passagem {
+
+    margin: 68px 0 59px;
+}
+
+.container-passagem h1 {
+
+    font-size: 57.4286px;
+    line-height: 67px;
+    color: #535563;
+
+}
+
+.container-passagem .passagens {
+
+    margin-top: 20px;
+
+}
+
+.passagens .passagem {
+
+    width: 340px;
+    height: 340px;
+    background-color: #FFC805;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 9px;
+
+}
+
+.passagem i {
+
+    font-size: 96px;
+    margin-bottom: 5px;
+
+}
+
+.passagem .destino {
+
+    font-size: 32.9827px;
+    line-height: 39px;
+    color: #535563;
+    margin-bottom: 15px;
+
+}
+
+.passagem .preco {
+
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFFFFF;
+    margin-bottom: 5px;
+
+}
+
+.container-hospedagem {
+
+    margin-top: 59px;
+
+}
+
+.container-hospedagem h1 {
+
+    font-size: 57.4286px;
+    line-height: 67px;
+    color: #535563;
+
+}
+
+.container-hospedagem .hospedagens {
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+
+}
+
+.container-hospedagem .hospedagem {
+
+    background: #00D1FF;
+    padding: 41px 34px;
+    border-radius: 9px;
+    margin-bottom: 25px;
+
+}
+
+.hospedagem .titulo {
+
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    color: #535563;
+    display: block;
+    margin-bottom: 25px;
+
+}
+
+.hospedagem .item {
+
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    color: #535563;
+
+}
+
+.hospedagem .item .item-conteudo {
+
+    color: white;
+    font-weight: bold;
+    margin-left: 6px;
+
+}
