@@ -1,52 +1,66 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
-*{
+* {
     font-family: 'Roboto', sans-serif;
 }
-main{
+
+main {
     padding: 0 8rem;
 
 }
-.intro{
-    
-    padding:107px 0px 46px 0px;
+
+.intro {
+
+    padding: 107px 0px 46px 0px;
 }
-.intro h1{
-    padding-bottom:34px;
+
+.intro h1 {
+    padding-bottom: 34px;
     font-size: 36px;
     line-height: 42px;
     color: #535563;
 
 }
-.intro p{
+
+.intro p {
     font-size: 24px;
     line-height: 28px;
     color: #737373;
 
 }
-.imagem-fundo img{
+
+.imagem-fundo {
     width: 100%;
-    
+    height: 420px;
+
 }
-.imagens-scroll{
+
+.imagem-fundo img {
+    width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+
+
+}
+
+.imagens-scroll {
     display: block;
     width: 100%;
-    overflow: auto; 
+    overflow: auto;
     white-space: nowrap;
     margin-top: 48px;
-}   
-.imagens-scroll img{
+}
+
+.imagens-scroll img {
     height: 150px;
-    padding-right: 33px; 
-    display: inline-block;  
+    padding-right: 33px;
+    display: inline-block;
 }
 
 .container-passeio {
-
     width: 100%;
     display: flex;
     margin-top: 78px;
-
 }
 
 .passeios {
@@ -62,7 +76,7 @@ main{
     padding: 20px 38px;
     margin: 0 12px 32px;
     border-radius: 9px;
-    
+
 }
 
 .passeio h1 {
