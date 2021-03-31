@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 96.57%;
+  font-family: 'Raleway', sans-serif;
+}
+
+main .presentation {
+  height: 100vh;
+  background: url(../assets/lokatorBANNER.jpg);
+  background-size: 100%;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+main section:last-child div{
+  height: 600px;
+  width: 100%;
+  background: gray;
+}
