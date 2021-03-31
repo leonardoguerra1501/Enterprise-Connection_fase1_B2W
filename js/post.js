@@ -1,7 +1,7 @@
 function trocarImagem(nomeImagem){
   
     var imgPreview = document.getElementById('imgPrincipal')
-    var caminhoImagem = "Imagens/"
+    var caminhoImagem = "assets/"
 
     imgPreview.src = caminhoImagem + nomeImagem + ".jpg"
 }

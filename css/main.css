@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;600&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -7,6 +9,7 @@
 html {
   font-size: 96.57%;
   font-family: 'Raleway', sans-serif;
+  
 }
 
 main .presentation {
@@ -17,11 +20,136 @@ main .presentation {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  padding: 12rem 0;
 }
 
-main section:last-child div{
-  height: 600px;
+main .presentation h1 {
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: 400;
+  margin-bottom: 23rem;
+}
+
+
+main .presentation a {
+  background: rgba(0, 0, 0, 0.20);
+  padding: .5rem 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  border: 1px solid #fff;
+  border-radius: 2rem;
+  text-decoration: none;
+  color: #fff;
+  letter-spacing: .4rem;
+  font-weight: 400;
+  transition: background .3s;
+}
+
+main .presentation a:hover {
+  background: rgba(0, 0, 0, 0.25);
+}
+
+ main .sectionCards{
+  height: 100vh;
   width: 100%;
-  background: gray;
+  background: #f5f5f5;
+  padding: 5rem 0;
+} 
+
+main .sectionCards .mainCards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main .sectionCards .titleCards {
+  font-size: 2rem;
+}
+
+main .sectionCards .titleCards h2 {
+  font-weight: 400;
+  color: #5b636b;
+}
+
+main .sectionCards .mainCards .divCards {
+  display: flex;
+  align-items: center;
+}
+
+main .sectionCards .mainCards .divCards .card {
+  margin-top: 6rem;
+  background: #fff;
+  width: 550px;
+  height: 370px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.3);
+}
+
+main .sectionCards .mainCards .divCards .card h2 {
+  color: #3b7485;
+  margin-top: .5rem;
+  margin-bottom: .2rem;
+  font-weight: 600;
+}
+
+main .sectionCards .mainCards .divCards .card p {
+  color: #898989;
+}
+
+main .sectionCards .mainCards .divCards .card:first-child {
+  margin-right: 4.6rem;
+}
+
+main .sectionCards .mainCards .divCards .card div:first-child {
+  padding: 1.5rem 2rem;
+}
+
+main .sectionCards .mainCards .divCards .card div:first-child .linkCard {
+  width: 150px;
+  height: 40px;
+  font-size: 1.2rem;
+  border: 2px solid #3b7485;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2rem;
+  margin-top: .5rem;
+  text-decoration: none;
+  color: #3b7485;
+  transition: background-color .3s;
+}
+
+main .sectionCards .mainCards .divCards .card div:first-child .linkCard:hover {
+  background: #3b7485;
+  color: #fff;
+}
+
+main .sectionCards .mainCards .divCards .card div:first-child img {
+  width: 250px;
+  border-radius: 6px; 
+}
+
+main .sectionCards .mainCards .divCards .card div:last-child {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 2rem;
+}
+
+main .sectionCards .mainCards .divCards .card div:last-child img {
+  height: 400px;
+  margin-top: -20px;
+}
+
+@keyframes show {
+  from {
+    opacity: 0;
+    transform: translate3d(-30px, 0, 0)
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0)
+  }
 }

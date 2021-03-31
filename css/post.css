@@ -1,53 +1,49 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;600&display=swap');
 
 * {
     font-family: 'Raleway', sans-serif;
 }
 
 main {
-    padding: 0 8rem;
+    padding: 0 16rem;
     background-color: #f5f5f5;
-
 }
 
 h1 {
     font-size: 35px;
-    line-height: 67px;
     color: #535563;
 }
 
 .intro {
-
     padding: 107px 0px 46px 0px;
 }
 
 .intro h1 {
-    font-weight: 900px;
-    padding-bottom: 34px;
+    margin-bottom: .5rem;
     font-size: 36px;
-    line-height: 42px;
+    font-weight: 500;
     color: #535563;
-
 }
 
 .intro p {
-    font-size: 24px;
-    line-height: 28px;
+    font-size: 1.3rem;
+    line-height: 1.3;
     color: #737373;
+}
 
+.intro p + p {
+    margin-top: .5rem;
 }
 
 .imagem-fundo {
-    width: 100%;
     height: 420px;
-
 }
 
 .imagem-fundo img {
     width: 100%;
     max-height: 100%;
     object-fit: cover;
-
 }
 
 .imagens-scroll {
@@ -62,54 +58,41 @@ h1 {
     height: 150px;
     padding-right: 33px;
     display: inline-block;
+    cursor: pointer;
 }
 
 .container-passeio {
     width: 100%;
     display: flex;
     justify-content: flex-start;
-    flex-direction: column ;
-    margin-top: 78px;
-
+    flex-direction: column;
+    margin-top: 60px;
 }
 
-
-
 .passeios {
-
     width: 100%;
     display: flex;
-
 }
 
 .passeios .passeio {
-
     background-color: #515DA7;
-    padding: 20px 38px;
+    padding: 20px 1rem;
     margin: 0 12px 32px;
     border-radius: 9px;
-
 }
 
-
-
 .container-passeio h1 { 
-
-    font-size: 35px;
-    line-height: 67px;
+    font-size: 35px;    
     color: #535563; 
-
+    margin-bottom: 1rem;
 } 
 
-.passeio h1 {
-
+.passeio h2 {
     color: #fff;
-    font-weight: 500;
-    font-size: 20px;
+    font-weight: 600;
+    font-size: 1.2rem;
     line-height: 25px;
-    margin-bottom: 21px; 
-    text-transform: uppercase;
-
+    margin-bottom: 15px; 
 }
 
 .passeio {
@@ -118,182 +101,112 @@ h1 {
 }
 
 .item {
-
-    color: white;
-    font-size: 20px;
+    color: #fff;
+    font-size: 1.2rem;
     display: block;
     margin-bottom: 12px;
-
+    font-weight: 600;
 }
 
 .item .item-conteudo {
-
-    color: #FFF;
-    font-weight: bold;
+    color: #fff;
     margin-left: 6px;
-
+    font-weight: 500;
 }
 
 .info {
-
     background-color: #FFF;
-    padding: 20px 38px;
-    margin: 0 12px 32px;
+    padding: 2rem 38px;
+    margin: 0 auto;
     border-radius: 9px;
     width: 40%;
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
-
 }
 
 .info h1 {
-
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 42px;
+    font-weight: 600;
+    font-size: 1.4rem;
     color: #515DA7;
-    text-align: center;
-
+    margin-bottom: .5rem;
 }
 
 .info p {
-
-    font-weight: 500;
-    font-size: 20px;
+    font-weight: 600;
+    font-size: 1.2rem;
     color: #515DA7;
-    margin-top: 12px;
-
 }
 
 .info-dracula {
-
     height: 175px;
-
+    margin: 0;
 }
 
 .info-dracula h1 {
-
-    margin-bottom: 35px;
-
+    margin-bottom: 1rem;
 }
 
 .info-dracula span {
-
-    margin-bottom: 15px;
-
+    color: #515DA7;
+    line-height: 1.5rem;
 }
 
 .container-passagem {
-
-    margin: 68px 0 59px;
+    margin: 68px 0 1rem;
 }
 
 .container-passagem h1 {
-
     font-size: 35px;
-    line-height: 67px;
     color: #535563; 
-
-}
-
-.container-passagem .passagens {
-
-    margin-top: 20px;
-    display: flex;
-
+    margin-bottom: 1rem;
 }
 
 .passagens .passagem {
-
     background-color: #515DA7;
-    padding: 20px 38px;
-    margin: 0 12px 20px;
+    padding: 20px 1rem;
     border-radius: 9px;
-
-
+    display: flex;
+    width: 600px;
 }
 
-.passagem i {
+.passagens .passagem + .passagem {
+    margin-top: 1rem;
+}
 
-    font-size: 96px;
-    margin-bottom: 5px;
+.passagens .passagem div:first-child {
+    display: flex;
+    align-items: center;
+}
 
+.passagens .passagem div:last-child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 4rem;
+}
+
+.passagem img {
+    width: 60px;
+    margin-right: .5rem;
 }
 
 .passagem .destino {
-
-    font-size: 32.9827px;
-    line-height: 39px;
+    font-size: 1.5rem;
     color: #FFF;
-    margin-bottom: 15px;
-
 }
 
 .passagem .preco {
-
-    font-size: 36px;
-    line-height: 42px;
-    color: #FFFFFF;
-    margin-bottom: 5px;
-
-}
-
-.container-hospedagem {
-
-    display: flex;
-
-    margin-top: 59px;
-
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+    color: #fff;
+    font-weight: 600;
 }
 
 .container-hospedagem h1 {
-
     font-size: 35px;
-    line-height: 67px;
     color: #535563;
-
-}
-
-.container-hospedagem .hospedagens {
-
-    display: flex;
-    margin-top: 25px;
-    align-items: flex-start;
-}
-
-.container-hospedagem .hospedagem {
-
-    background: #515DA7;
-    padding: 41px 34px;
-    border-radius: 9px;
-    margin-bottom: 25px;
-
-}
-
-.hospedagem .titulo {
-
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 56px;
-    color: #FFF;
-    display: block;
-    margin-bottom: 25px;
-
-}
-
-.hospedagem .item {
-
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 56px;
-    color: #FFF;
-
-}
-
-.hospedagem .item .item-conteudo {
-
-    color: white;
-    font-weight: bold;
-    margin-left: 6px;
-
 }

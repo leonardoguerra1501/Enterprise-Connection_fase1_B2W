@@ -1,159 +1,165 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/post.css">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
-    <title>Hobbit</title>
-</head>
-
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/post.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/menu.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Hobbit | Lokator</title>
+  </head>
+  <body>
+    <header>
+      <div class="menu">
+        <div class="voltar">
+          <a href="./index.html"
+            ><img src="./assets/arrow-left.png" alt="Voltar"
+          /></a>
+        </div>
+        <div class="options">
+          <ul>
+            <li><a href="./building.html">Temas</a></li>
+            <li><a href="./building.html">Pacotes</a></li>
+            <li><a href="./building.html">Meus destinos</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
     <main>
-
-
-        <div class="intro">
-            <h1>O Hobbit movie set - Nova Zelândia</h1>
-            <p>Um dos pontos turísticos mais visitados da Nova Zelândia é o Condado dos Hobbits devido as filmagens das
-                trilogias The Lord of the Rings e Hobbit. O Condado localiza-se em uma fazenda próxima à pequena cidade de
-                Matamata, a qual fica à 160km de da capital na ilha norte.</p>
-        </div>
-        <section class="slider">
-
-            <div class="imagem-fundo">
-                <img id="imgPrincipal" src="Imagens/Hobbit/hobbiton.png" alt="vista panorâmica de hobbiton">
-            </div>
-
-            <div class="imagens-scroll">
-                <img onclick="trocarImagem('Hobbit/board-full')" src="Imagens/Hobbit/board-full.jpg" alt="Placa da cidade hobbiton">
-                <img onclick="trocarImagem('Hobbit/boat-full')" src="Imagens/Hobbit/boat-full.jpg" alt="Imagem de um barco em hobbiton">                
-                <img onclick="trocarImagem('Hobbit/breads-full')" src="Imagens/Hobbit/breads-full.jpg" alt="mesa com pães">
-                <img onclick="trocarImagem('Hobbit/food_table-full')" src="Imagens/Hobbit/food_table-full.jpg" alt="mesa com comidas típicas">
-                <img onclick="trocarImagem('Hobbit/hobbiton-full')" src="Imagens/Hobbit/hobbiton-full.jpg" alt="vista panorâmica de hobbiton">
-                <img onclick="trocarImagem('Hobbit/house2-full')" src="Imagens/Hobbit/house2-full.jpg" alt="imagem de uma casa em hobbiton">
-                <img onclick="trocarImagem('Hobbit/house1-full')" src="Imagens/Hobbit/house1-full.jpg" alt="imagem de uma casa em hobbiton">
-                <img onclick="trocarImagem('Hobbit/hobbiton-full')" src="Imagens/Hobbit/hobbiton.png" alt="vista panorâmica de hobbiton">
-            </div>
-        </section>
-
-        <div class="container-passeio">
-
-            <h1>Passeios</h1>
-
-            <div class="passeios">
-
-                <div class="passeio">
-
-                    <h1>Hobbiton movies tour - 2h</h1>
-
-                    <span class="item">Adulto: <span class="item-conteudo">R$ 89,00</span></span>
-
-                    <span class="item">Adolescentes 9 à 16 anos: <span class="item-conteudo">R$ 44,00</span></span>
-
-                    <span class="item">Crianças 5 à 8 anos: <span class="item-conteudo">Grátis</span></span>
-
-                </div>
-
-                <div class="passeio">
-
-                    <h1>Secound breakfast tour - 3h</h1>
-
-                    <span class="item">Adulto: <span class="item-conteudo">R$ 139,00</span></span>
-
-                    <span class="item">Adolescentes 9 à 16 anos: <span class="item-conteudo">R$ 89,00</span></span>
-
-                    <span class="item">Crianças 5 à 8 anos: <span class="item-conteudo">R$ 39,00</span></span>
-
-                </div>
-
-                <div class="passeio">
-
-                    <h1>The evening banquet tour - 4h</h1>
-
-                    <span class="item">Adulto: <span class="item-conteudo">R$ 199,00</span></span>
-
-                    <span class="item">Adolescentes 9 à 16 anos: <span class="item-conteudo">R$ 162,00</span></span>
-
-                    <span class="item">Crianças 5 à 8 anos: <span class="item-conteudo">R$ 104,00</span></span>
-
-                </div>
-
-            </div>
-
-            <div class="info">
-
-                <h1>Sobre os passeios</h1>
-
-                <p>Saídas a cada 20 minutos. O passeio tem duração de 2h a 4h dependendo do pacote escolhido</p>
-
-            </div>
-
+      <div class="intro">
+        <h1>O Hobbit movie set - Nova Zelândia</h1>
+        <p>
+          Um dos pontos turísticos mais visitados da Nova Zelândia é o Condado
+          dos Hobbits devido as filmagens das trilogias The Lord of the Rings e
+          Hobbit. O Condado localiza-se em uma fazenda próxima à pequena cidade
+          de Matamata, a qual fica à 160km de da capital na ilha norte.
+        </p>
+      </div>
+      <section class="slider">
+        <div class="imagem-fundo">
+          <img
+            id="imgPrincipal"
+            src="assets/Hobbit/hobbiton.png"
+            alt="vista panorâmica de hobbiton"
+          />
         </div>
 
-        <div class="container-passagem">
-
-            <h1>Viage para Nova Zelândia</h1> 
-
-            <div class="passagens">
-
-                <div class="passagem">
-
-                    <i class="material-icons-outlined">flight</i>
-
-                    <span class="destino">Guarulhos - Auckland</span>
-
-                    <span class="preco">R$ 75,901</span>
-                    <span class="preco">R$ 80.235</span>
-
-                </div>
-
-            </div>
-
+        <div class="imagens-scroll">
+          <img
+            onclick="trocarImagem('Hobbit/board-full')"
+            src="assets/Hobbit/board-full.jpg"
+            alt="Placa da cidade hobbiton"
+          />
+          <img
+            onclick="trocarImagem('Hobbit/boat-full')"
+            src="assets/Hobbit/boat-full.jpg"
+            alt="Imagem de um barco em hobbiton"
+          />
+          <img
+            onclick="trocarImagem('Hobbit/breads-full')"
+            src="assets/Hobbit/breads-full.jpg"
+            alt="mesa com pães"
+          />
+          <img
+            onclick="trocarImagem('Hobbit/food_table-full')"
+            src="assets/Hobbit/food_table-full.jpg"
+            alt="mesa com comidas típicas"
+          />
+          <img
+            onclick="trocarImagem('Hobbit/hobbiton-full')"
+            src="assets/Hobbit/hobbiton-full.jpg"
+            alt="vista panorâmica de hobbiton"
+          />
+          <img
+            onclick="trocarImagem('Hobbit/house2-full')"
+            src="assets/Hobbit/house2-full.jpg"
+            alt="imagem de uma casa em hobbiton"
+          />
+          <img
+            onclick="trocarImagem('Hobbit/house1-full')"
+            src="assets/Hobbit/house1-full.jpg"
+            alt="imagem de uma casa em hobbiton"
+          />
+          <img
+            onclick="trocarImagem('Hobbit/hobbiton-full')"
+            src="assets/Hobbit/hobbiton.png"
+            alt="vista panorâmica de hobbiton"
+          />
         </div>
-    
+      </section>
+      <div class="container-passeio">
+        <h1>Passeios</h1>
+        <div class="passeios">
 
-        <div class="container-passeio">
+          <div class="passeio">
+            <h2>Hobbiton movies - 2h</h2>
+            <span class="item">Adulto: <span class="item-conteudo">R$ 89,00</span></span>
+            <span class="item">Adolescentes 9 à 16 anos:<span class="item-conteudo">R$ 44,00</span></span>
+            <span class="item">Crianças 5 à 8 anos:<span class="item-conteudo">Grátis</span></span>
+          </div>
 
-            <h1>Hospedagem</h1> 
+          <div class="passeio">
+            <h2>Secound breakfast - 3h</h2>
+            <span class="item">Adulto: <span class="item-conteudo">R$ 139,00</span></span>
+            <span class="item">Adolescentes 9 à 16 anos:<span class="item-conteudo">R$ 89,00</span></span>
+            <span class="item">Crianças 5 à 8 anos:<span class="item-conteudo">R$ 39,00</span></span>
+          </div>
 
-            <div class="passeios">
-
-                <div class="passeio">
-
-                    <h1>Opal Hot Springs & Holiday Park</h1> 
-
-                    <span class="item">Diária: <span class="item-conteudo">R$ 280,00</span></span>
-
-                </div>
-
-                <div class="passeio">
-
-                    <h1>Matamata Central</h1>
-
-                    <span class="item">Diária: <span class="item-conteudo">R$ 631,00</span></span>
-
-                </div>
-
-                <div class="passeio">
-
-                    <h1>Horse & Jockey Inn</h1>
-
-                    <span class="item">Diária: <span class="item-conteudo">R$ 338,00</span></span>
-
-                </div>
-
-            </div>
-
+          <div class="passeio">
+            <h2>The evening banquet tour - 4h</h2>
+            <span class="item">Adulto: <span class="item-conteudo">R$ 199,00</span></span>
+            <span class="item">Adolescentes 9 à 16 anos:<span class="item-conteudo">R$ 162,00</span></span>
+            <span class="item">Crianças 5 à 8 anos:<span class="item-conteudo">R$ 104,00</span></span>
+          </div>
         </div>
 
-       
+        <div class="info">
+          <h1>Sobre os passeios</h1>
+          <p>
+            Com saídas a cada 20 minutos, os passeios tem duração de 2h a 4h
+            dependendo do pacote escolhido
+          </p>
+        </div>
+      </div>
+
+      <div class="container-passagem">
+        <h1>Viage para Nova Zelândia</h1>
+        <div class="passagens">
+
+          <div class="passagem">
+              <div>
+                <img src="./assets/flight.png" alt="">
+                <h2 class="destino">Guarulhos - Auckland</h2>
+              </div>
+              <div>
+                <span class="preco">R$ 75,901</span>
+                <span class="preco">R$ 80.235</span>
+              </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-passeio">
+        <h1>Hospedagem</h1>
+        <div class="passeios">
+          <div class="passeio">
+            <h2>Opal Hot Springs & Holiday Park</h2>
+            <span class="item">Diária: <span class="item-conteudo">R$ 280,00</span></span>
+          </div>
+          <div class="passeio">
+            <h2>Matamata Central</h2>
+            <span class="item">Diária: <span class="item-conteudo">R$ 631,00</span></span>
+          </div>
+          <div class="passeio">
+            <h2>Horse & Jockey Inn</h2>
+            <span class="item">Diária: <span class="item-conteudo">R$ 338,00</span></span>
+          </div>
+        </div>
+      </div>
     </main>
-<script src="js/post.js"></script>
 
-</body>
-
+    <script src="js/post.js"></script>
+  </body>
 </html>

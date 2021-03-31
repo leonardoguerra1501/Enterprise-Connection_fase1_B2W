@@ -1,0 +1,60 @@
+.menu {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 4rem;
+  position: fixed;
+  background: #fff;
+  top: 0;
+  left: 0;
+  right: 0;
+  box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.3);
+  animation: show .5s forwards;
+}
+
+.menu .logo {
+  width: 200px;
+}
+
+.menu .voltar {
+  width: 200px;
+}
+
+.menu .logo img {
+  width: 100%;
+} 
+
+.menu .voltar img {
+  width: 4rem;
+} 
+
+.menu .options ul {
+  list-style: none;
+  display: flex;
+  font-size: 1.8rem;
+}
+
+.menu .options ul li {
+  cursor: pointer;
+}
+
+.menu .options ul li + li {
+  margin-left: 2rem;
+}
+
+.menu .options ul li a {
+  text-decoration: none;
+  color: #3b7485;
+}
+
+@keyframes show {
+  from {
+    opacity: 0;
+    transform: translate3d(-30px, 0, 0)
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0)
+  }
+}
